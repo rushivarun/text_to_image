@@ -6,6 +6,7 @@ from msrest.authentication import CognitiveServicesCredentials
 import nltk
 
 nltk.download('stopwords')
+nltk.download('punkt')
 
 
 def keyword_ext(my_text):
