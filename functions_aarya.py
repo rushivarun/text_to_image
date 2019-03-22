@@ -5,9 +5,8 @@ from azure.cognitiveservices.search.imagesearch import ImageSearchAPI
 from msrest.authentication import CognitiveServicesCredentials
 
 
-def keyword_ext():
+def keyword_ext(my_text):
     r = Rake()
-    my_text = 'hello fuckers imma rule this world like shit in container and flush it in america'
     r.extract_keywords_from_text(my_text)
     key_list = r.get_ranked_phrases()
     return key_list
