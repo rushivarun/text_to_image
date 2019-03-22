@@ -4,6 +4,8 @@ from rake_nltk import Rake
 from azure.cognitiveservices.search.imagesearch import ImageSearchAPI
 from msrest.authentication import CognitiveServicesCredentials
 
+nltk.download('stopwords')
+
 
 def keyword_ext(my_text):
     r = Rake()
