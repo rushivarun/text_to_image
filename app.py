@@ -5,9 +5,12 @@ from functions_aarya import keyword_ext
 from functions_aarya import FetchImage
 from flask import request
 import json
+from flask_cors import CORS, cross_origin
 
 
 app = Flask(__name__)
+
+CORS(app)
 
 
 @app.route('/rakeit', methods=["POST"])

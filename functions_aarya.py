@@ -5,6 +5,7 @@ from azure.cognitiveservices.search.imagesearch import ImageSearchAPI
 from msrest.authentication import CognitiveServicesCredentials
 import nltk
 
+
 nltk.download('stopwords')
 nltk.download('punkt')
 
