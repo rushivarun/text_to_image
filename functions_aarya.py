@@ -3,6 +3,7 @@ from flask import jsonify
 from rake_nltk import Rake
 from azure.cognitiveservices.search.imagesearch import ImageSearchAPI
 from msrest.authentication import CognitiveServicesCredentials
+import nltk
 
 nltk.download('stopwords')
 
