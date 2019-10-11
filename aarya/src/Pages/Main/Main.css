@@ -1,0 +1,89 @@
+#img-col{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#help-text{
+    text-align: center;
+    color: white;
+    margin-top: 24px;
+}
+
+#main-stuff{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#img-main{
+    margin-top: 42px;
+    width: 200px;   
+}
+
+#img-tag{
+    font-weight: bolder;
+}
+
+#img-holder{
+    /* display: flex;
+    flex-direction: row; */
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#img-holder #card {
+    display: inline-block;
+    /* color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none; */
+  }
+  
+
+#help-text2, #trying-text{
+    text-align: center;
+    color: #606060;
+    margin-top: 22vh; 
+}
+
+#listen-btn-trans{
+    height: 100px;
+    width: 100px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin-top: 12vh;
+    background-image: url('../../graphics/mic_white.png');
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    transform: 0.3s;
+}
+
+#listen-btn-white{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin-top: 12vh;
+    background-image: url('../../graphics/mic_blue.png');
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    transform: 0.3s;
+}
+
+
+
+#img-display{
+    height: 54vh;
+    background-color: #fff;
+    margin-bottom: -100px;
+    margin-top: 2vh;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    padding: 12px;
+}
+
