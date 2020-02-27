@@ -101,7 +101,7 @@ cupshelpers==1.0
 cycler==0.10.0
 defer==1.0.6
 distro-info===0.18ubuntu0.18.04.1
-Django==2.2.4
+Django==2.2.10
 django-cors-headers==3.1.0
 django-rest-framework==0.1.0
 djangorestframework==3.10.2
