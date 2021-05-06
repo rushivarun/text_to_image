@@ -109,7 +109,7 @@ dlib==19.17.0
 docutils==0.15.2
 evdev==0.7.0
 Flask==1.1.1
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 future==0.17.1
 gym==0.14.0
 h5py==2.9.0
